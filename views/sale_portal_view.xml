@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sale_portal_content_invoice_plan" inherit_id="sale.sale_order_portal_content">
+        <xpath expr="//section[@id='terms']" position="after">
+            <section class="mt-5" t-if="sale_order.invoice_plan_ids">
+                <h3 id="details">Invoice Plan</h3>
+                <table t-att-data-order-id="sale_order.id" t-att-data-token="sale_order.access_token" class="table table-sm" id="sales_order_table">
+                    <thead class="bg-100">
+                        <tr>
+                            <th class="text-left">installment</th>
+                            <th class="text-right">Plan date</th>
+                            <th class="text-right">Invoice Type</th>
+                            <th class="text-right">Value</th>
+                            <th class="text-right">Percent</th>
+                            <th class="text-right">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="sale_tbody">
+                        <t t-foreach="sale_order.invoice_plan_ids" t-as="plan">
+                            <tr>
+                                <td class="text-left" id="installment"><span t-field="plan.installment"/></td>
+                                <td class="text-right" id="plan_date"><span t-field="plan.plan_date"/></td>
+                                <td class="text-right" id="invoice_type"><span t-field="plan.invoice_type"/></td>
+                                <td class="text-right" id="value"><span t-field="plan.absolute_value"/></td>
+                                <td class="text-right" id="percent"><span t-field="plan.percent"/></td>
+                                <td class="text-right" id="description"><span t-field="plan.description"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+            </section>
+        </xpath>
+    </template>
+
+</odoo>
