@@ -159,4 +159,5 @@ class SaleOrder(models.Model):
             moves.invoice_date = plan.plan_date
             moves._onchange_invoice_date()
             plan.invoice_move_ids += moves
+            moves.invoice_plan_id = plan.id
         return moves
