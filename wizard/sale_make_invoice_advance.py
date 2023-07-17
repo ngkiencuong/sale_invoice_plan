@@ -12,4 +12,5 @@ class SaleAdvancePaymentInv(models.TransientModel):
         if invoice_plan_id:
             plan = self.env["sale.invoice.plan"].browse(invoice_plan_id)
             plan.invoice_move_ids += invoice
+            invoice.invoice_plan_id = plan.id
         return invoice
