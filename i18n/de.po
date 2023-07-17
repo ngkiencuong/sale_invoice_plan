@@ -390,3 +390,43 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_order_form_invoice_plan
 msgid "⇒ Remove Invoice Plan"
 msgstr "⇒ Rechnungsplan entfernen"
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Pos"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Plan Date"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Pos"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Type"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Absolute Value"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Percent"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Description"
+msgstr ""
+
+#. module: sale_invoice_plan
+#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.report_saleorder_document_invoice_plan_enerix
+msgid "Invoice Plan"
+msgstr ""
