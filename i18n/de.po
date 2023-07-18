@@ -23,49 +23,49 @@ msgstr "Absoluter Wert"
 #. module: sale_invoice_plan
 #: model:ir.model.fields.selection,name:sale_invoice_plan.selection__sale_invoice_plan__invoice_type__advance
 msgid "Advance"
-msgstr ""
+msgstr "Abschlagszahlung (AZ)"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__advance
 msgid "Advance on 1st Invoice"
-msgstr ""
+msgstr "AZ auf die 1. Rechnung"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_order_form_invoice_plan
 msgid "Are you sure to remove this invoice plan?"
-msgstr ""
+msgstr "Sind Sie sicher dass, Sie diesen Zahlungsplan löschen möchten?"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,help:sale_invoice_plan.field_sale_order__ip_invoice_plan
 msgid "At least one invoice plan line pending to create invoice"
-msgstr ""
+msgstr "Um einen Rechnungsplan zu erstellen, benötigen Sie mindestens eine Rechnungszeile."
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_create_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_make_planned_invoice
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_make_planned_invoice
 msgid "Create All Remaining Invoices"
-msgstr ""
+msgstr "Alle verbleibenden Rechnungen erstellen"
 
 #. module: sale_invoice_plan
 #: model:ir.actions.act_window,name:sale_invoice_plan.action_sale_create_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_create_invoice_plan
 msgid "Create Invoice Plan"
-msgstr ""
+msgstr "Plan für Rechnungen erstellen"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_order_form_invoice_plan
 msgid "Create Invoice by Plan"
-msgstr ""
+msgstr "Rechnung nach Plan erstellen"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_make_planned_invoice
 msgid "Create Next Inovice"
-msgstr ""
+msgstr "Nächste Rechnung erstellen"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__create_uid
@@ -79,18 +79,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__create_date
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Erstellt von"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__partner_id
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Customer"
-msgstr ""
+msgstr "Kunde"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields.selection,name:sale_invoice_plan.selection__sale_create_invoice_plan__interval_type__day
 msgid "Day"
-msgstr ""
+msgstr "Tag"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__description
@@ -105,24 +105,24 @@ msgstr "Beschreibung"
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__display_name
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Name anzeigen"
 
 #. module: sale_invoice_plan
 #: model:ir.model,name:sale_invoice_plan.model_sale_create_invoice_plan
 msgid "Fillig invoice planning criteria"
-msgstr ""
+msgstr "Füllen Sie die Kriterien für die Rechnungsplanung aus"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Group By"
-msgstr ""
+msgstr "Gruppieren nach"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__id
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__id
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__id
 msgid "ID"
-msgstr ""
+msgstr "Ident."
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,help:sale_invoice_plan.field_sale_invoice_plan__invoiced
