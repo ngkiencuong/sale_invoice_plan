@@ -188,7 +188,7 @@
         sequence="2"
     />
 
-    <template id="report_saleorder_document_invoice_plan_enerix" inherit_id="sale.report_saleorder_document">
+    <template id="report_saleorder_document_invoice_plan" inherit_id="sale.report_saleorder_document">
         <xpath expr="//div[hasclass('page')]" position="inside">
             <div t-if="doc.invoice_plan_ids" style="page-break-before: always !important">
                 <h4 class="mb32">Invoice Plan</h4>
